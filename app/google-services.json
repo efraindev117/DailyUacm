@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "927098323068",
+    "project_id": "daily-uacm",
+    "storage_bucket": "daily-uacm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:927098323068:android:59f0266b77972509a789f9",
+        "android_client_info": {
+          "package_name": "com.example.dailyuacm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-XE9BuNwYzxfF4yo5Sq-xwafQ7ZBqwxA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

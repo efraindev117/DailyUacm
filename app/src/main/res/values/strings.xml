@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">UACM Daily</string>
+    <!--Navigation drawable-->
+    <string name="title_home_drawable">Home</string>
+    <string name="title_agenda_drawable">Agenda</string>
+    <string name="title_calendar_drawable">Calendario</string>
+    <string name="title_user_drawable">User</string>
+    <string name="title_rating_drawable">Calificaciónes</string>
+    <string name="title_settings_drawable">Configuración</string>
+    <string name="title_courses_drawable">Materias</string>
+    <string name="title_profession_drawable">Mi carrera</string>
+    <string name="title_teachers_drawable">Maestros</string>
+    <string name="title_help_and_opinion_drawable">Ayuda y opinión</string>
+    <string name="title_terms_and_condition_drawable">Términos y condiciones</string>
+    <!--Navigation drawable-->
+</resources>
