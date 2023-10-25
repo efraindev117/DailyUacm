@@ -4,6 +4,9 @@ import androidx.compose.material3.windowsizeclass.WindowSizeClass
 import androidx.compose.material3.windowsizeclass.WindowWidthSizeClass
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.navigation.NavHostController
+import com.example.dailyuacm.ui.features.UiMode
+import com.example.dailyuacm.ui.navigation.component.NestedNavigation
 import com.example.dailyuacm.ui.utils.navigation.NavigationType
 
 @Composable
@@ -24,6 +27,10 @@ fun WindowApp(
         WindowWidthSizeClass.Medium -> {
             navigationType = NavigationType.NAVIGATION_DRAWER
         }
-    }
+        else ->{
 
+        }
+    }
+    //
+    NestedNavigation()
 }

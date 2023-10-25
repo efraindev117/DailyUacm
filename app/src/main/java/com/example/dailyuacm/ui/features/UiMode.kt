@@ -3,6 +3,7 @@ package com.example.dailyuacm.ui.features
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import com.example.dailyuacm.ui.navigation.component.NestedNavigation
 import com.example.dailyuacm.ui.utils.navigation.NavigationType
 
 
@@ -14,8 +15,9 @@ fun UiMode(
     if (navigationType == NavigationType.NAVIGATION_DRAWER) {
         AnimatedVisibility(
             visible = navigationType == NavigationType.NAVIGATION_DRAWER
-        ){
+        ) {
             //
+            NestedNavigation()
         }
     }
 }

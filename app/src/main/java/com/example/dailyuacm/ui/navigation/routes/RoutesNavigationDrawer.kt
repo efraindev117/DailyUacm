@@ -1,4 +1,15 @@
-package com.example.dailyuacm.ui.navigation
+package com.example.dailyuacm.ui.navigation.routes
+
+
+object SplashScreen{
+    const val SPLASH_SCREEN = "SPLASH_SCREEN"
+}
+
+object RoutesLoginAndRegister {
+    const val USER_REGISTER = "REGISTER_SCREEN"
+    const val USER_LOGIN = "LOGIN_SCREEN"
+    const val USER_SIGNUP = "LOGIN_SIGNUP"
+}
 
 object RoutesNavigationDrawer {
     const val HOME_NAVIGATION_ROUTE_NAME = "HOME_SCREEN"
@@ -12,8 +23,4 @@ object RoutesNavigationDrawer {
     const val PROFESSION_NAVIGATION_ROUTE_NAME = "PROFESSION_SCREEN"
     const val TERMS_AND_CONDITIONS_NAVIGATION_ROUTE_NAME = "TERMS_AND_CONDITIONS_SCREEN"
     const val HELP_AND_QUESTION_NAVIGATION_ROUTE_NAME = "HELP_AND_QUESTION_SCREEN"
-}
-object RoutesNavigationLoginAndRegister {
-    const val USER_LOGIN = "LOGIN_SCREEN"
-    const val REGISTER_LOGIN = "LOGIN_SCREEN"
 }

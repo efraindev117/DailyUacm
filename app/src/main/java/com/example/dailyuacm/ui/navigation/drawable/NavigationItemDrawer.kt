@@ -1,7 +1,8 @@
-package com.example.dailyuacm.ui.navigation
+package com.example.dailyuacm.ui.navigation.drawable
 
 import androidx.compose.ui.graphics.vector.ImageVector
 import com.example.dailyuacm.R
+import com.example.dailyuacm.ui.navigation.routes.ScreensNavigation
 import com.example.dailyuacm.ui.utils.icons.UacmDailyIcons
 
 data class NavigationItemDrawable(
